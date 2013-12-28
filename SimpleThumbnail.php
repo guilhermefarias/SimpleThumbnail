@@ -23,9 +23,9 @@ class SimpleThumbnail {
 		$imageWidth = imagesx($image);
 		$imageHeight = imagesy($image);
 
-		$thumbWidth = $this->width;
-		$thumbHeight = $this->height;
-		$thumbQuality = $this->quality;
+		$thumbWidth = isset($this->width) ? $this->width : $imageWidth;
+		$thumbHeight = isset($this->height) ? $this->height : $imageHeight;
+		$thumbQuality = isset($this->quality) ? $this->quality : 90;
 
 		$originalRatio = $imageWidth / $imageHeight;
 		$thumbRatio = $thumbWidth / $thumbHeight;
