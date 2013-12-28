@@ -1,7 +1,9 @@
 {
-    "name": "jfranciscos4/simple-thumbnail",
+    "name": "simple-thumbnail/simple-thumbnail",
     "description": "This class is designed to be a simple and lightweight way to create thumbnails.",
-    "license": "MIT License",
+    "homepage": "https://github.com/guilhermefarias/SimpleThumbnail",
+    "keywords": ["thumb","image","thumbnail"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Guilherme Farias",
