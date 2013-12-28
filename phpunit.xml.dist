@@ -1,0 +1,23 @@
+<phpunit backupGlobals="false"
+        backupStaticAttributes="false"
+        bootstrap="public/bootstrap.php"
+        cacheTokens="true"
+        colors="false"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        stopOnFailure="false"
+        syntaxCheck="false"
+        verbose="false">
+    <testsuites>
+        <testsuite name="PHPUnit">
+            <directory>tests/SThumb</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>src/SThumb</directory>
+        </whitelist>
+    </filter>
+</phpunit>
