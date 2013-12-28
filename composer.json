@@ -1,0 +1,20 @@
+{
+    "name": "jfranciscos4/simple-thumbnail",
+    "description": "This class is designed to be a simple and lightweight way to create thumbnails.",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Guilherme Farias",
+            "email": "guilherme@guiky.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "":        "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    }
+}
